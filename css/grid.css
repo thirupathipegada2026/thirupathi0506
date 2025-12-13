@@ -5,26 +5,27 @@
     color: #fff;
 }
 html,body{
-    width: 100%;
-    height: 100%;
+   width: 100%;
+   height: 100%;
 }
 body{
-    background-color: purple;
-}
+    background-color: whitesmoke;
 h{
     font-family: 'Times New Roman', Times, serif;
-    font-style:italic;
+    font-style: oblique;
     font-display: block;
-    font-weight: 100;
-    background-color: aquamarine;
-    text-align: center;
-    text-decoration: underline;
-    text-shadow: cyan;
-    margin: left;
+    background-color: black;
+    font-size: larger;
+    text-shadow: cornsilk;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    margin-left: initial;
+    text-align: right; 
+}
 }
 .images{
     width: 100%;
-    background-color: greenyellow;
+    background-color: purple;
     display: grid;
     gap: 20px;
     grid-template-areas: 
@@ -39,22 +40,24 @@ h{
     "i"
     "j";
 }
-@media(min-width:1000px){
+
+ 
+@media(min-width: 1000px){
     .images{
         display: grid;
         grid-template-areas: 
-        " a a b c"
-        " a a d e"
-        " f g j j"
-        " h i j j";
-        gap: 10px;
-       padding: 10px;
-
-    }
+    "a a b c"
+    "a a d e"
+    "f g j j"
+    "h i j j" ;
+    gap: 10px;
+    padding: 10px;
 }
+}
+
 img{
-     width: 100%;
-    aspect-ratio: 16/9;
+    width:100%;
+    aspect-ratio: 1/1;
     object-fit: cover;
 }
 .image-a{

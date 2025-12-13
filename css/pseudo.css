@@ -1,0 +1,23 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    background-color:red;
+    animation:sree 2sec cubic-bezier(0.19, 1, 0.22, 1) 1s both;
+
+}
+@keyframes sree {
+    0%{
+        background-color: black;
+    
+    }
+    50%{
+        background-color: greenyellow;
+
+      }
+
+    100%{
+        background-color: crimson;
+    }
+    
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Killer;
+    src: url(./Poppins-Light.ttf);
+}
+h1{
+    background-color: green;
+    font-family: killer;
+}
+

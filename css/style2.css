@@ -1,0 +1,34 @@
+h1{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: 100;
+    letter-spacing: normal;
+    line-height:  1.5;
+    word-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: none;   
+    text-shadow: 3px 3px 3px blueviolet;
+    background-color: yellowgreen;
+}
+p{
+    color: black;
+    font-family: cursive;
+    font-size: small;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: normal;
+    line-height:  1.5;
+    word-spacing: normal;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: none;   
+    text-shadow: 3px 3px 3px blueviolet;
+    background-color: yellowgreen;
+}
