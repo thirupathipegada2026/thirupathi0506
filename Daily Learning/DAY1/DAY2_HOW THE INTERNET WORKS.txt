@@ -1,0 +1,59 @@
+WEB DEVELOPMENT WITH VIBE CODING 
+
+Today l learnt and I explored the topics
+It Includes :
+👉Client server Architecture 
+👉Databases
+👉Http Methods
+👉Http Requests
+👉CRUD Operations
+👉 Application programming interface (API)
+
+Topic: CLIENT SERVER ARCHITECTURE 
+
+💬CLIENT : Users side 
+It means the request that we raise through any web or app 
+Example: Swiggy - Here we can order something or requesting order from the specified restaurant 
+
+,💬SERVER : It means the server give Response for users request 
+In another words Server is a super computer which holds the data and give the response for user request and it is connected through the database..
+
+💬DataBase : Which stores the data
+Two types of database: 
+1.RELATIONAL DATABASE: 
+stores in the tables format i.e It is organised data into a proper structure format rows and columns 
+ Example: PostgreSQL, MySQL
+
+2.NON- RELATIONAL DATABASE : 
+It will not store in the form of tables format
+Example: MangoDB, Cassandra 
+
+HYPER TEXT TRANSFER PROTOCAL(Http) Methods : 
+Http- It is not a secured website.
+
+Https : it is a secured website.
+ALSO I learnt http Requests:
+
+✨Get : Request from the database fetching the data form the database 
+Ex: Login process
+
+✨Put : update - Modify the data or edit option 
+Example : Edit the profile in any app or website
+
+✨Post : Example saving the data into database system
+Ex: Creating a account - sign up process
+
+✨Delete: Removing the data from the data base 
+
+Also I learnt the CRUD Operations: 
+👉C- Create - Post request
+👉R- Read - Get Request 
+👉U- Update - Put request 
+👉D- Delete - Delete request 
+
+Today I learnt more about API
+💬APPLICATION PROGRAMMING INTERFACE(API) :
+It is connection between client and server and it is also known as translator
+
+Ex: Zoom App - 
+Which sends the request and response in the form of javascript object notation(JSON)
