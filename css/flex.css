@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f1f3f6;
+  padding: 20px;
+}
+
+/* FLEX CONTAINER */
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* CARD DESIGN */
+.card {
+  background: linear-gradient(to bottom right, BLUE, blue);
+  width: 32%;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+/* IMAGE */
+.card img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.card h3 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.card button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #ff3c00;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #ffe0cc;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #0b3c91; /* BLUE BACKGROUND */
+  padding: 14px 24px;
+}
+
+/* LOGO */
+.logo {
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* NAV ITEMS IN ROW */
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #ffffff;
+  min-width: 140px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  color: #000;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* SEARCH */
+.search {
+  margin-left: auto; /* pushes to right */
+  padding: 7px 14px;
+}
+
+.img-box {
+  width: 300px;
+  overflow: hidden;          /* hides zoom overflow */
+  border-radius: 12px;
+}
+
+.img-box img {
+  width: 100%;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.img-box img:hover {
+  transform: scale(1.1);     /* zoom effect */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
