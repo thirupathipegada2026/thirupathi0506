@@ -9,14 +9,13 @@ html, body {
   height: 100%;
 }
 
-h {
+h{
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 500;
 }
 
-.card {
+.card{
   border: 1px solid blue;
-  width: -moz-fit-content;
   width: fit-content;
   display: flex;
 }
@@ -25,8 +24,7 @@ img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 h1 {
@@ -36,4 +34,4 @@ h1 {
   text-transform: capitalize;
   font-display: block;
   font-variant: normal;
-}/*# sourceMappingURL=style.css.map */
+}
