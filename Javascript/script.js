@@ -1,4 +1,4 @@
-console.log("Hello print my words and i hope you like it");
+/*console.log("Hello print my words and i hope you like it");
 
 console.log("You know , you are my best friend");
 
@@ -40,8 +40,35 @@ console.log(a*b)       //Multiplication
 console.log(a/b)        //division
 console.log(a%b)        //Modulo
 
-
+*/
 
 
 /////DAY2
 
+
+ alert("i hope you are doing well")
+
+ var a =prompt("tomorrow is the best day to learn things again if we r not perfect todays learning")
+
+
+
+confirm(" how you r feeling now")
+
+
+
+
+var s=11;
+var j=20;
+console.log(s++)  
+console.log(j++)  //post increment
+
+
+console.log(++s)    //pre increment
+console.log(++j)
+
+console.log(s--)    //post decrement
+console.log(j--)
+
+console.log(--s)    //pre decrement
+console.log(--j)
+// console.log('s' +s+ 'j' +j)      //appending two strings
