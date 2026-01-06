@@ -10,13 +10,23 @@ var btn=document.querySelector(".btn");
    btn.addEventListener("click", function() {
    box.style.backgroundColor="blue" 
    btn.addEventListener("click", function() {  
-   box.style.backgroundColor="green" 
+   box.style.backgroundColor="green"
    btn.addEventListener("click", function() { 
-   box.style.backgroundColor="yellow" 
+   box.style.backgroundColor="blueviolet"
+   box.textcontent='<h5> hey killer </h5>'
+   // if i used the html  h5 tag 
+   // box.innerHTML='<h5> hey killer </h5>'
+   
+
    btn.addEventListener("click", function() { 
    box.style.backgroundColor="orange" 
+   // if i used text content changing html
+   // box.textcontent=" music was superb"
+
    btn.addEventListener("click", function() { 
    box.style.backgroundColor="red" 
+   // if i change the text in box  by using changing html property
+  // box.innerHTML=" Tune was superb"
  });
 });
 });
@@ -25,7 +35,7 @@ var btn=document.querySelector(".btn");
 });
 });
 
-
+// Note: 
 
 // if i select box  the colour will have to be changed
 

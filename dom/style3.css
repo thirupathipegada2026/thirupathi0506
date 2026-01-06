@@ -13,6 +13,7 @@ h2 {
   width: 500px;
   height: 500px;
   object-fit: cover;
+  align-items: center;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   transition: 0.3s ease;
@@ -41,6 +42,6 @@ h2 {
 }
 
 .box:hover {
-  background: #ff6600;
+  background: #111;
   transform: scale(1.1);
 }
